@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+@import "reset";
+
+
+
+body {
+  line-height: 1;
+  background: white;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+blockquote,
+q {
+  quotes: none;
+}
+
+blockquote:after,
+blockquote:before,
+q:after,
+q:before {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+.box-1{
+  background-color: blue;
+}
+
+
+.box-2{
+  background-color: yellowgreen;
+}
+
+.box-3{
+  background-color: pink;
+}
+
+
+.box-4{
+  background-color: darkgray;
+}
+
+
+.box-5{
+  background-color: rgb(47, 29, 150);
+}
+
+.box-6{
+  background-color: darkseagreen;
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+}
+
+
+
+
+
+
+
+
+
+
+
+
